@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="bharatcss.css">
+<body>
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active">
+                <a href="#">home</a>
+            </li>
+            <li class="link"><a href="#">
+                project
+
+            </a>
+
+            </li>
+            <li class="link"><a href="#">
+                about
+
+            </a>
+
+            </li>
+            <li class="link"><a href="#">
+            contact
+
+            </a>
+
+            </li>
+
+
+        </ul>
+    </nav>
+    <section class="home-section active">
+        <h1 class="hero-heading"> hello,i am <br> Ayush </h1>
+        <img src="ayushimg.png" class="home-img" alt="abhi laga dung">
+    </section>
+    <section class="project-section">
+        <h1 class="prolect-heading"> some of my project</h1>
+        <div class="project-conatiner">
+            <div class="project-card">
+                <img src="data:image/;base64,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" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">
+                        project 01
+
+                    </h1>
+                    <p class="project-info">
+                        snake game using html css and javascript in this game 
+                        i used javascript fucnction to implement the logic and html and css to give a degin
+
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn-github"> github repo</button>
+                        <button class="project-btn-live"> see live</button>
+
+
+                    </div>
+
+                </div>
+            </div>
+                <div class="project-card">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.jWEsQhzR0IpcUOK7okHiPgHaEK&pid=Api&P=0" alt=""
+                    
+                        <div class="project-content">
+                            <h1 class="project-title">
+                                project 2
+        
+                            </h1>
+                            <p class="project-info">
+                                stone paper  game using html css and javascript in this game 
+                                i used javascript fucnction to implement the logic and html and css to give a degin
+        
+                            </p>
+                            <div class="project-btn-grp">
+                                <button class="project-btn-github"> github repo</button>
+                                <button class="project-btn-live"> see live</button>
+        
+        
+                            </div>
+        
+                        </div>
+                </div>
+                        <div class="project-card">
+                            <img src="https://tse2.mm.bing.net/th?id=OIP.iV7wWNX_KbOGz0nuFhfHowHaEB&pid=Api&P=0" alt=""
+                    
+                            <div class="project-content">
+                                <h1 class="project-title">
+                                    project 3
+            
+                                </h1>
+                                <p class="project-info">
+                                    Portfolio website using html css and javascript in this
+                                    i used javascript fucnction to implement the logic and html and css to give a degin
+                                </p>
+                                <div class="project-btn-grp">
+                                    <button class="project-btn-github"> github repo</button>
+                                    <button class="project-btn-live"> see live</button>
+            
+            
+                                </div>
+            
+                            </div>
+                        </div>
+    
+            
+    
+        
+    
+                    
+    
+    
+
+            </div>
+        </div>
+        
+    </section>
+    <section class="about-section active">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="97cfc787-f101-414c-9403-1553c440a1uuuuu.jpg" class="about-img" alt="k">
+                
+                
+                <button class="download-cv-btn">download cv</button>
+            </div>
+            <p class="about-info">
+                I am Ayush pathak.i am pursuing my mca from GL bajaj college of technology and management and i love to degin website 
+                while I'm based in Nodia.i have a sound knoweldge of data structure and Algorithms.i have solved more then 100 question on leetcode 
+                i have 4 start c++ and python on hackerank i have good communication skills and i love to solve real world problem through 
+                coading .i have deep intrest in software development filed and i want to be a software/web developer .currently i am looking for a role as 
+                developer in this sector.
+
+
+
+            </p>
+
+        </div>
+    </section>
+    <div class="skill-section">
+        <h1 class="heading">Skills</h1>
+            <div class="skill-conatiner">
+                <div class="skill-card">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.J0XmObyFPuxl-nKwJ23E5QHaGl&pid=Api&P=0" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">HTML</h1>
+                    <p class="skill-info"> HTML, i have a good knowlede of html i ahve 4 year of experince in HTML</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.tAvAD5lCtDJSjywplxd37QHaEo&pid=Api&P=0" class="skill-img" alt="">
+                    <div class="skill-level">92%</div>
+                    <h1 class="skill-name">css</h1>
+                    <p class="skill-info">css,i love to use css in my webdite i ahd been using css for 4 year </p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.25vSXGJsvi1u3JIjcfvfNQHaEo&pid=Api&P=0" class="skill-img" alt="">
+                    <div class="skill-level">70%</div>
+                    <h1 class="skill-name">javascript</h1>
+                    <p class="skill-info"> javascript , i have sound knowldege of javascript and basis of javascript</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.AtZsuD4fJNI1adoNh53HbgHaIV&pid=Api&P=0" class="skill-img" alt="">
+                    <div class="skill-level">99%</div>
+                    <h1 class="skill-name">cpp</h1>
+                    <p class="skill-info">cpp,cpp is my primary language i ahve got 4 start on hackerank in cpp and solved 100 question on leetcode</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.J38nYZU7gzu-4lQmtjlSUwHaEK&pid=Api&P=0" class="skill-img" alt="">
+                    <div class="skill-level">80%</div>
+                    <h1 class="skill-name">Data strucutre</h1>
+                    <p class="skill-info"> i have deep knoweldge of data structure in cpp</p>
+                </div>
+                <div class="skill-card">
+                  <img src="  https://tse4.mm.bing.net/th?id=OIP.o-NBdZdNDQdRBIox12ljggHaGS&pid=Api&P=0" class="skill-img" alt="">
+
+                    <div class="skill-level">90%</div>
+                    <h1 class="skill-name">oops concept</h1>
+                    <p class="skill-info"> oops concept ,i have experience of working in all four concepts of oops</p>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </h1>
+
+    </div>
+    <div class="timeline">
+        <h1 class="heading"> education and experience</h1>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2022-2024</h1>
+                <p class="card-details"> master of computer application from
+                    GL bajaj college of manangement
+                </p>
+            </div>
+        </div>
+                <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2019-2022</h1>
+                <p class="card-details"> Bachlor of computer application 
+                    school of manement sciences lucknow
+                
+                </p>
+            </div>
+        </div>
+                <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2017-2019</h1>
+                <p class="card-details"> class 12
+                    cbse board (swami harsewnand publich school)
+                </p>
+            </div>
+        </div>
+                        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2016-2017</h1>
+                <p class="card-details"> class 10
+                    cbse board (st joseph convemt high school)
+                </p>
+            </div>
+        </div>
+
+        
+
+        
+
+        
+
+
+
+    </div>
+    <section class="contact-section">
+        <form class="contact-form">
+            <input type="text" name="name" autocomplete="off" placeholder="name">
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name ="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+            <button type="submit" class="form-submit-btn">contact</button>
+            </form>
+            <div class="map">
+                
+    
+        
+            
+            
+
+    </section>
+    <script src="bharatjs.js"></script>
+
+
+    
+
+    
+
+    
+</body>
+</html>
